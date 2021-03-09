@@ -16,7 +16,7 @@ class PassGenerator(object):
       # a = 3 --> add a letter
       # a = 4 --> add a digit
 
-      if len(password) >= 10:
+      if len(password) >= 10 and len(parameters) <= len(parameters)/2:
         # add the remainign parameters if the password is too long
         for parameter in parameters:
           password += str(parameter)

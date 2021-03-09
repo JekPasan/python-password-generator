@@ -19,7 +19,7 @@ class PassGenerator(object):
       if len(password) >= 10:
         # add the remainign parameters if the password is too long
         for parameter in parameters:
-          a += parameter
+          password += str(parameter)
         else:
           # the else gets executed after the for loop finished
           break

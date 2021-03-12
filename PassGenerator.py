@@ -8,6 +8,7 @@ class PassGenerator(object):
     return x
   
   def generate(self) -> None:
+    use = input("what do you intend on using it for? ")
     raw_parameters = input("words you want within your password: ")
     parameters = raw_parameters.split(",")
     lower_alphabet = "abcdefghijklmnopqrstuvwxyz"
@@ -45,4 +46,7 @@ class PassGenerator(object):
         password = self.add(password, signs)
       elif a == 5:
         password = self.add(password, digits)
+    f = open("passwords.txt", "a")
+    f.write(use + ": " + password + "\n")
+    f.close()
     print("generated password is: " + password)

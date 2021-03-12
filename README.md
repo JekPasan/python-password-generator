@@ -6,4 +6,7 @@ This is just to test out what I've learnt so far.
 Any criticism is welcomed.
 
 When inputing the parameters which you want to be included within the password they need to look something like: "x,y,z,etc". The program breaks if you use spaces.
-![image](https://user-images.githubusercontent.com/68905668/110466190-1ba7aa00-80de-11eb-8dee-ba3f08ef1758.png)
+
+
+![Untitled](https://user-images.githubusercontent.com/68905668/110913666-1b95ed00-831e-11eb-87e1-d8b4fc724c23.png)
+

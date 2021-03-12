@@ -47,6 +47,6 @@ class PassGenerator(object):
       elif a == 5:
         password = self.add(password, digits)
     f = open("passwords.txt", "a")
-    f.write("\n" + use + ": " + password + "\n")
+    f.write("\n" + use + ": " + password)
     f.close()
     print("generated password is: " + password)

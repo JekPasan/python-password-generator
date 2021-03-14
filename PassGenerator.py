@@ -8,8 +8,8 @@ class PassGenerator(object):
     return x
   
   def generate(self) -> None:
-    use = input("what do you intend on using it for? ")
-    raw_parameters = input("words you want within your password: ")
+    use = input("what do you intend on using it for?\n(can be left empty)\n")
+    raw_parameters = input("words you want within your password\n(must have at least 1 parameter)\n")
     parameters = raw_parameters.split(",")
     lower_alphabet = "abcdefghijklmnopqrstuvwxyz"
     upper_alphabet = "ABCDEFGHIJKLMNOPQRTUVWXYZ"
